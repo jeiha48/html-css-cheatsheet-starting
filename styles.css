@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif
+    
+
+}
+
+body{
+    background-color:  hsl(180, 13%, 80%);
+}
+
+h2{
+    color: rgb(87, 113, 113);
+}
+
+
+
+nav{
+    border-bottom: 1px solid black;
+    padding: 10px 100px;
+    background-color: rgb(87, 113, 113);
+    position: fixed;
+    width: 100%;
+    color: aliceblue;
+    z-index: 10;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+#reference_sheet {
+    padding-left: 350px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.html_reference {
+    position: relative;
+    top: 41px;
+    padding: 40px 40px;
+    text-align: center;
+
+}
+
+.html_reference h2 {
+    padding: 20px;
+}
+
+.html_reference h3 {
+    padding-bottom: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+table {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  display: inline-block;
+  overflow-x: auto;
+  border-spacing: 0;
+}
+
+tbody {
+  white-space: nowrap;
+}
+
+th,
+td {
+  padding: 5px 10px;
+  border-top-width: 0;
+  border-left-width: 0;
+  width: 100%;
+}
+
+th {
+
+  position: sticky;
+  top: 0;
+  background:  rgb(87, 113, 113);
+  vertical-align: bottom;
+  color: aliceblue;
+}
+
+th:last-child,
+td:last-child {
+  border-right-width: 0;
+}
+
+tr:last-child td {
+  border-bottom-width: 0;
+}
+
+.code{
+    font-family: monospace;
+    background-color: hsl(180, 13%, 55%);
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+  color:  hsl(180, 40%, 70%);;
+  color: hsl(0, 0%, 100%);
+}
+
+
+
